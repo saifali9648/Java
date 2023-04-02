@@ -1,0 +1,16 @@
+public class StacticVariable {
+    public static void main(String[] args) {
+        System.out.println("valude of m"+Example.m);
+        Example.fun();
+        
+    }
+}
+class Example{
+    static void fun()
+    {
+     int x=5;
+     System.out.println("value of x"+x);
+
+    }
+    static int m=5;
+}
