@@ -1,0 +1,15 @@
+public class HelloWorld{
+public static void main(String[] args){
+System.out.println("Hello Saif");
+int x=3;
+float y=x;
+System.out.println("vlaue of y is"+y);
+float f=3.0f;
+float i=f;
+System.out.println("value of i is"+i);
+//float j=3.5; // error double value cannot be store in float type
+//System.out.println("value of j is"+j);
+float j=3.5f; //  No error
+System.out.println("value of j is"+j);
+}
+}
