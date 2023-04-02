@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class ClassExample {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the value of length:-");
+        int l=sc.nextInt();
+        System.out.println("enter the value of breadth:-");
+        int b=sc.nextInt();
+        System.out.println("enter the value of height:-");
+        int h=sc.nextInt();
+        Box smallBox=new Box();
+        smallBox.setDimension(l, b, h);
+        smallBox.showDimension();
+    }
+}
+class Box{
+    private int length,height,bredth;
+    public void setDimension(int l, int b, int h)
+    {
+        length=l; height=h; bredth=b;
+    }
+    public void showDimension()
+    {
+        System.out.println("length"+length);
+        System.out.println("height"+height);
+        System.out.println("bredth"+bredth);
+    }
+}
