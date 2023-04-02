@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Taking {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int n=sc.nextInt();
+        System.out.println("entred no"+n);
+        System.out.println("enter second no");
+        int m=sc.nextInt();
+        System.out.println("second no"+m);
+        System.out.println("first no"+n);
+    }
+    
+}
